@@ -1,3 +1,9 @@
+#logo{
+    background-color:#11131C;
+}
 #carousel-with-lb{
     background-color: #11131C;
+}
+.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+    display: flex;
 }
