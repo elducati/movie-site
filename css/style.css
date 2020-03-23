@@ -9,9 +9,6 @@
     grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
     margin-right: 0px;
 }
-.container-fluid{
-
-}
 .col-md-4{
     flex:0 0 auto;
     padding-right: 0px;
