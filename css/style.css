@@ -4,15 +4,18 @@
 #carousel-with-lb{
     background-color: #11131C;
 }
-.carousel-item-next, .carousel-item-prev, .carousel-item.active{
+.carousel-multi-item .carousel-inner .carousel-item.active,
+ .carousel-multi-item .carousel-item-next, .carousel-multi-item .carousel-item-prev{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin-right: 0px;
 }
+
 .col-md-4{
     flex:0 0 auto;
     padding-right: 0px;
     padding-left: 5px;
+    width: 100%;
     max-width: initial;
 }
 .fa-1x {
