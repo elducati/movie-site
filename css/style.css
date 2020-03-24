@@ -1,9 +1,6 @@
 #logo{
     background-color:#11131C;
 }
-#carousel-with-lb{
-    background-color: #11131C;
-}
 .carousel-multi-item .carousel-inner .carousel-item.active,
  .carousel-multi-item .carousel-item-next, .carousel-multi-item .carousel-item-prev{
     display: grid;
