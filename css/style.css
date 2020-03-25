@@ -40,3 +40,6 @@
     .light-blue.lighten-4{
         background-color: #ffffff !important;
     }
+    .modal-body, .modal-title{
+        color: #000000;
+    }
