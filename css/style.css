@@ -43,3 +43,6 @@
     .modal-body, .modal-title{
         color: #000000;
     }
+    #f,#i,#y,#t{
+        padding-right: 20px;
+    }

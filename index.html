@@ -37,13 +37,25 @@
       <!-- Links -->
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link"  href="#home">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link"  href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Schedule</a>
+          <a class="nav-link"  href="#movies">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#schedule">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#announcements">Announcements</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  href="#contact">Contact Us</a>
         </li>
       </ul>
       <!-- Links -->
@@ -58,7 +70,7 @@
 <body>
 
   <!-- Start your project here-->
-  <div id="logo" class="container-fluid">
+  <div id="logo" class="container-fluid" id="home">
 
   </div>
   <div class="container-fluid">
@@ -154,7 +166,7 @@
     <!--Carousel Wrapper-->
   </div>
   <div class="container-fluid">
-    <h2>About | Film Festival</h2>
+    <div class="container-fluid" id="about"><h2>| About | Film Festival</h2></div>
     <!--Carousel Wrapper-->
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -325,7 +337,7 @@
     <!--/.Carousel Wrapper-->
   </div>
   <div class="container-fluid">
-    <h2>Movies</h2>
+    <div class="container-fluid" id="movies"><h2>| Movies</h2></div>
     <!--Carousel Wrapper-->
     <div id="carousel-with-lb" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -513,7 +525,7 @@
     <!--/.Carousel Wrapper-->
   </div>
   <div class="container-fluid">
-    <h2>Schedule</h2>
+    <div class="container-fluid" id="schedule"><h2>| Schedule</h2></div>
     <!--Carousel Wrapper-->
     <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
       <!--Indicators-->
@@ -579,7 +591,7 @@
   </div>
 
   <div class="container-fluid">
-    <h2>Announcements</h2>
+    <div class="container-fluid" id="announcements"><h2>| Announcements</h2></div>
     <!-- Card Dark -->
 <div class="card">
  <!-- Card content -->
@@ -633,7 +645,7 @@ Some quick example text to build on the card title and make up the bulk of the c
 
   <div class="container-fluid">
 
-    <h2>Register</h2>
+    <div class="container-fluid" id="register"><h2>| Register</h2></div>
 
     <!-- Card -->
 <div class="card">
@@ -658,21 +670,17 @@ Some quick example text to build on the card title and make up the bulk of the c
         <input type="email" id="materialFormCardEmailEx" class="form-control">
         <label for="materialFormCardEmailEx" class="font-weight-light">Your email</label>
       </div>
-
-      <!-- Material input email -->
-      <div class="md-form">
-        <i class="fa fa-exclamation-triangle prefix grey-text"></i>
-        <input type="email" id="materialFormCardConfirmEx" class="form-control">
-        <label for="materialFormCardConfirmEx" class="font-weight-light">Confirm your email</label>
+      <!--Material input select-->
+      <div class="md-form">        
+        <select class="browser-default custom-select">
+          <option selected class="font-weight-light">Select No. of Tickets</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
       </div>
-
-      <!-- Material input password -->
-      <div class="md-form">
-        <i class="fa fa-lock prefix grey-text"></i>
-        <input type="password" id="materialFormCardPasswordEx" class="form-control">
-        <label for="materialFormCardPasswordEx" class="font-weight-light">Your password</label>
-      </div>
-
       <div class="text-center py-4 mt-3">
         <button class="btn btn-cyan" type="submit">Register</button>
       </div>
@@ -686,20 +694,22 @@ Some quick example text to build on the card title and make up the bulk of the c
 <!-- Card -->
   </div>
   <div class="container-fluid">
-    <h2>Contact Us</h2>
-    <div class="row">
-      <div class="col">        
-        <i class="fas fa-at">Email Us At</i><p>clara@watchitoutside.com</p>
-        <i class="fas fa-phone-volume">Call Us On</i><p>0712345678</p>
-      </div>
-      <div class="col">
-        Follow Us On
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube-square"></i>
-        <i class="fab fa-twitter-square"></i>
+    <div class="jumbotron" id="contact"><h2>| Contact Us</h2>
+      <div class="row">
+        <div class="col">        
+          <i class="fas fa-at"></i>Email Us At:<p>clara@watchitoutside.com</p>
+          <i class="fas fa-phone-volume"></i>Call Us On:<p>0712345678</p>
+        </div>
+        <div class="col">
+          Follow Us On:</br>
+          <i id="f" class="fab fa-facebook-f"></i>
+          <i id="i" class="fab fa-instagram"></i>
+          <i id="y" class="fab fa-youtube-square"></i>
+          <i id="t" class="fab fa-twitter-square"></i>
+        </div>
       </div>
     </div>
+    
   </div>
   <div class="container-fluid">
 
