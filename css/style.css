@@ -15,8 +15,8 @@
     width: 100%;
     max-width: initial;
 }
-.img-fluid{
-    width: 75%;
+.d-md-inline-block{
+    background-color: #0C3239;
 }
 
 .fa-1x {
