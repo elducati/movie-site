@@ -91,4 +91,6 @@ body{
     .card-text{
         color: #ffffff !important;
     }
-   
+   .h4{
+       color:rgb(71, 70, 70);
+   }
