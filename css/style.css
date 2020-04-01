@@ -21,7 +21,7 @@ body{
     background-color: #0F256E;
 }
 .fas{
-    color: #0056B3;
+    color: #CEDE37;
 }
 .btn-secondary {
     background-color: #0F256E !important;
@@ -45,7 +45,7 @@ body{
     color:#483290;
 }
 #contact {
-    color:#7E3896;
+    color:#CEDE37;
 }
 
 .jumbotron{
@@ -75,8 +75,11 @@ body{
     .modal-body, .modal-title{
         color: #000000;
     }
-    #f,#i,#y,#t{
-        padding-right: 20px;
+    #f,#i,#y,#t, #social-media{
+        padding-top: 5px;
+        padding-right: 50px;
+        font-size: 32px;
+        float: right;
     }
     .controls-top{
         text-align: center;
@@ -94,3 +97,4 @@ body{
    .h4{
        color:rgb(71, 70, 70);
    }
+  
