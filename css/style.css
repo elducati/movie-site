@@ -2,9 +2,7 @@ body{
     background-color: #0F256E;
     color: #ffffff;
 }
-#logo{
-    background-color:#11131C;
-}
+
 .carousel-multi-item .carousel-inner .carousel-item.active,
  .carousel-multi-item .carousel-item-next, .carousel-multi-item .carousel-item-prev{
     display: grid;
@@ -49,11 +47,9 @@ body{
 #contact {
     color:#7E3896;
 }
-#Register{
-    background-image:  linear-gradient(to right, #1695CE, #3E5FAD, #483290 , #7E3896);
-}
+
 .jumbotron{
-   background-image:  linear-gradient(to right, #1695CE, #3E5FAD, #483290 , #7E3896);
+   background-image:  linear-gradient(to bottom, #1695CE, #3E5FAD, #483290 , #7E3896);
 }
 .fa-1x {
     font-size: 1.5rem;
@@ -74,7 +70,7 @@ body{
     color: #004d40;
     }
     .light-blue.lighten-4{
-        background-color: #ffffff !important;
+        background-color: #0F256E !important;
     }
     .modal-body, .modal-title{
         color: #000000;
@@ -84,4 +80,14 @@ body{
     }
     .controls-top{
         text-align: center;
+    }
+    #about-film{
+        background-color: #0056B3;
+    }
+    .mb-2{
+        background-color: #0056B3;
+        
+    }
+    .card-text{
+        color: #ffffff !important;
     }
