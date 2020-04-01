@@ -20,9 +20,38 @@ body{
     max-width: initial;
 }
 .d-md-inline-block{
-    background-color: #0C3239;
+    background-color: #0F256E;
 }
-
+.fas{
+    color: #0056B3;
+}
+.btn-secondary {
+    background-color: #0F256E !important;
+}
+.elegant-color{
+    background-color: #0F256E !important;
+}
+#about{
+    color: #CEDE37;
+}
+#movies{
+    color: #63B247;
+}
+#schedule {
+    color: #1695CE;
+}
+#announcements {
+    color: #3E5FAD;
+}
+#register {
+    color:#483290;
+}
+#contact {
+    color:#7E3896;
+}
+.jumbotron{
+   background-image:  linear-gradient(to right, #1695CE, #3E5FAD, #483290 , #7E3896);
+}
 .fa-1x {
     font-size: 1.5rem;
     }

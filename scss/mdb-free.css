@@ -11762,4 +11762,8 @@ ul.stepper li.active a .label, ul.stepper li.completed a .label {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
+
+.btn-secondary {
+  background-color: #0F256E;
+}
 /*# sourceMappingURL=mdb-free.css.map */
