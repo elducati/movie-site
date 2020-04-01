@@ -49,6 +49,9 @@ body{
 #contact {
     color:#7E3896;
 }
+#Register{
+    background-image:  linear-gradient(to right, #1695CE, #3E5FAD, #483290 , #7E3896);
+}
 .jumbotron{
    background-image:  linear-gradient(to right, #1695CE, #3E5FAD, #483290 , #7E3896);
 }
