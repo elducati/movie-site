@@ -39,17 +39,17 @@ body{
     color: #1695CE;
 }
 #announcements {
-    color: #3E5FAD;
+    color: #CEDE37;
 }
 #register {
-    color:#483290;
+    color:#63B247;
 }
 #contact {
     color:#CEDE37;
 }
 
 .jumbotron{
-   background-image:  linear-gradient(to bottom, #1695CE, #3E5FAD, #483290 , #7E3896);
+   background-image:  linear-gradient(to bottom, #1695CE, #3E5FAD, #483290);
 }
 .fa-1x {
     font-size: 1.5rem;
