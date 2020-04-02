@@ -97,4 +97,6 @@ body{
    .h4{
        color:rgb(71, 70, 70);
    }
-  
+   .carousel .carousel-indicators li{
+    background-color:#0056B3;
+   }
