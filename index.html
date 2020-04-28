@@ -21,7 +21,7 @@
 </head>
 <header>
   <div class="nav-main"><a id="logo-1" class="navbar-brand" ><img src="images/logo.png" alt="logo" style="width: 100px;" /><strong>Watch It Outside Events Co.</strong></a>
-  <nav class="navbar navbar-expand-lg navbar-dark nav-main">  
+  <nav id="nav-main" class="navbar navbar-expand-lg navbar-dark nav-main">  
       
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
@@ -1295,7 +1295,7 @@
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
           <div class="view">
-            <img class="d-block w-100"
+            <img class="d-block w-100 h-100"
               src="https://cdn.collider.com/wp-content/uploads/2011/12/the-avengers-movie-poster-banners-04.jpg"
               alt="First slide">
             <div class="mask rgba-black-light"></div>
@@ -1309,7 +1309,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100"
+            <img class="d-block w-100 h-100"
               src="https://cdn.collider.com/wp-content/uploads/2010/06/inception_movie_poster_banner_04.jpg"
               alt="Second slide">
             <div class="mask rgba-black-strong"></div>
@@ -1322,7 +1322,7 @@
         <div class="carousel-item">
           <!--Mask color-->
           <div class="view">
-            <img class="d-block w-100"
+            <img class="d-block w-100 h-100"
               src="https://i.pinimg.com/originals/66/24/96/6624960f0062bd8b8845037c6776277c.jpg" alt="Third slide">
             <div class="mask rgba-black-slight"></div>
           </div>
@@ -1331,6 +1331,19 @@
             <p>6.00pm - 9.00pm</p>
           </div>
         </div>
+        <div class="carousel-item">
+          <!--Mask color-->
+          <div class="view">
+            <img class="d-block w-100 h-100"
+              src="https://berkreviews.files.wordpress.com/2020/03/moviebannermaster-onward.png?w=840" alt="Third slide">
+            <div class="mask rgba-black-slight"></div>
+          </div>
+          <div class="carousel-caption">
+            <h3 class="h3-responsive">August 8th</h3>
+            <p>6.00pm - 9.00pm</p>
+          </div>
+        </div>
+        
       </div>
       <!--/.Slides-->
       <!--Controls-->
@@ -1435,13 +1448,14 @@
           <div class="md-form">
             <select class="browser-default custom-select">
               <option selected class="font-weight-light">Select Movie To Watch</option>
-              <option value="Avengers">Avengers : Infinity War </option>
-              <option value="Inception">Inception</option>
-              <option value="Maleficent">Maleficent</option>
-              <option value="Onward">Onward</option>
+              <option value="Avengers">Avengers : Infinity War | Showing On 5th August</option>
+              <option value="Inception">Inception | Showing On 6th August</option>
+              <option value="Maleficent">Maleficent | Showing On 7th August</option>
+              <option value="Onward">Onward | Showing On 8th August</option>
               
             </select>
           </div>
+          
           <!--Material input select-->
           <div class="md-form">
             <select class="browser-default custom-select">
