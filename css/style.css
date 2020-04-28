@@ -36,10 +36,10 @@ video {
     background-color: #434343;
 }
 .fas{
-    color: #CEDE37;
+    color: #ffffff;
 }
 .btn-secondary {
-    background-color: #434343 !important;
+    background-color: #000000 !important;
 }
 .elegant-color{
     background-color: #434343 !important;
@@ -98,22 +98,24 @@ video {
    .carousel .carousel-indicators li{
     background-color:#000000;
    }
-
-@media (max-width: 575px) { 
+   #nav-main{
+       float: right;
+       background-color: #000000;
+   }
+   
+@media (max-width: 576px) { 
     #f,#i,#y,#t, #social-media, h2, p, label,.custom-select, h5, .modal-body, h3, h4, h1{
                
         font-size: 80% !important;       
     }
-    #navbarNav{
+    .nav-main{
        display: none;
     }
     
  }
- @media (min-width: 576px) { 
-     
-  }
+ 
  @media (min-width : 768px){
-    #navbarSupportedContent1{
+    #nav-hamburger{
         display: none;
     }
  }
