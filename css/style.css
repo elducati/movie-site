@@ -103,13 +103,21 @@ video {
     #f,#i,#y,#t, #social-media, h2, p, label,.custom-select, h5, .modal-body, h3, h4, h1{
                
         font-size: 80% !important;       
-        
-        
+    }
+    #navbarNav{
+       display: none;
+    }
+    
+ }
+ @media (min-width: 576px) { 
+     
+  }
+ @media (min-width : 768px){
+    #navbarSupportedContent1{
+        display: none;
     }
  }
- .video-fluid{
-     height: 250px;
- }
+ 
  a{
      color: #ffffff !important;
  }
