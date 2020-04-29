@@ -115,7 +115,10 @@ video {
     }
     
  }
- 
+ .carousel .carousel-control-prev-icon, .carousel .carousel-control-next-icon{
+    width: 60px !important; 
+    height: 80px !important;
+ }
  @media (min-width : 768px){
     #nav-hamburger{
         display: none;
