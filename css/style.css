@@ -95,6 +95,10 @@ video {
    .h4{
        color:rgb(71, 70, 70);
    }
+   .custom-control-label{
+    color:rgb(71, 70, 70);
+
+   }
    .carousel .carousel-indicators li{
     background-color:#000000;
    }
